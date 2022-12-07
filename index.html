@@ -3,12 +3,28 @@
   <head>
     <title>Personas Assignment</title>
     <link rel="stylesheet" href="styles.css" /> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   </head>
   <body>
-    <div id="header">
-        <h1>UI/UX Personas Assignment</h1>
+    <!-- Navigation (Sits on top) -->
+    <div class="w3-top w3-bar w3-white w3-padding w3-card w3-wide nav-bar">
+      <h3 class="title">
+      <a href="#about" class="w3-bar-item w3-button">UI/UX Personas Assignment</a>
+      </h3>
+
+
+    <!-- Right-sided navbar links. Hide them on small screens -->
+      <div class="w3-right navRight"><h6>
+        <a href="#about" class="w3-bar-item w3-button">About</a>
+        <a href="#sketch" class="w3-bar-item w3-button">Annotated Sketch</a>
+        <a href="#interview" class="w3-bar-item w3-button">Interviews</a>
+        <a href="#empathy" class="w3-bar-item w3-button">Empathy Maps</a>
+        <a href="#storyboard" class="w3-bar-item w3-button">Storyboard</a>
+      </div>
     </div>
-    <div id="row">
+
+
+    <section class="row" id="about" style="margin-top: 150px;">
       <div id="text">
         <h2>About this project</h2>
         <p>
@@ -21,8 +37,8 @@
       <div id="right-col">
         <img id="picture" src="./IMG_4556.jpg">
       </div>
-    </div>
-    <div id="row">
+    </section>
+    <section class="row" id="sketch">
       <div id="text">
         <h2>Description and Annotated Sketch</h2>
         <p>
@@ -35,10 +51,16 @@
       <div id="right-col">
         <img id="picture" src="./IMG_4577.jpg">
       </div>
-    </div>
-    <div id="row">
+    </section>
+    <section class="row" id="interview">
+      <div id="text">
+        <h2>Interview Information</h2>
+      </div>
+      
+    </section>
+    <div class="row" id="qs">
       <div id="text-obs">
-        <h2>Interview Questions</h2>
+        <h3>Interview Questions</h3>
         <ul>
           <li>Where do you start when using the printer?</li>
           <li>How long does it take on average to print something?</li>
@@ -48,9 +70,9 @@
           </ul>
       </div>
     </div>
-    <div id="row">
+    <div class="row" id="obs">
       <div id="text-obs">
-        <h2>Observations from Interviews</h2>
+        <h3>Observations from Interviews</h2>
         <ul>
           <li><strong>User One:</strong> This user expressed difficulty with printing previously from their 
             desktop so decided to use the mobile website to send documents to the printer. The process of preparing a 
@@ -65,9 +87,9 @@
           </ul>
       </div>
     </div>
-    <div id="row">
+    <div class="row" id="summary">
       <div id="text-obs">
-        <h2>Interview Summaries</h2>
+        <h3>Interview Summaries</h3>
         <ul>
           <li>Users who used the mobile website necessary to send documents to the printer station took more time when printing as there were more steps necessary to understand how to print.</li>
           <li>Users didn’t consult the written labels or instructions on or around the printer station despite its purpose of being there to be helpful resources. </li>
@@ -90,9 +112,14 @@
         <img style="width: 40%" src="./Screen Shot 2022-10-03 at 6.18.31 PM (1).jpg">
       </div>
     </div>
-    <div id="row">
+    <section class="row" id="empathy">
       <div id="text">
-        <h2>Empathy Map 1</h2>
+      <h2>Empathy Maps</h2>
+      </div>
+    </section>
+    <div class="row">
+      <div id="text">
+        <h3>Empathy Map 1</h3>
         <p>
             I made an empathy map for "Late Larry", a student who is constantly late. This student needs to make sure that the printing process is fast and efficient.
         </p>
@@ -101,9 +128,9 @@
         <img id="picture" src="./Empathy Map 1.JPG">
       </div>
     </div>
-    <div id="row">
+    <div class="row">
       <div id="text">
-        <h2>Empathy Map 2</h2>
+        <h3>Empathy Map 2</h3>
         <p>
             I made an empathy map for "Freshman Frannie", a student who is new to Brown and also dislikes handling complex technology. This student needs to make sure that the printing process is understandable and easy to learn.
         </p>
@@ -112,7 +139,7 @@
         <img id="picture" src="./Empathy Map 2.JPG">
       </div>
     </div>
-    <div>
+    <section class="row" id="storyboard">
       <div id="text">
         <h2>Storyboard</h2>
         <p>
@@ -123,7 +150,7 @@
         <img id="picture" src="./2022-10-03 21-49 page 1.JPEG">
         <img id="picture" src="./2022-10-03 21-49 page 2.JPEG">
       </div>
-    </div>
+    </section>
     </div>
   </body>
 
