@@ -1,8 +1,8 @@
 
- 
   html {
     scroll-padding-top: 8rem;
   }
+
   body {
     background: #EFF6FF;
   }
@@ -50,7 +50,7 @@
   }
 
   #picture {
-    width: 100%;
+    width: 80%;
   }
 
   .navRight {
@@ -76,6 +76,11 @@
     margin-left: 20px;
   }
 
+  #storyboard {
+    display: flex;
+    flex-direction: column;
+  }
+
   #image-row {
     display: flex;
     flex-direction: row;
@@ -84,7 +89,9 @@
     justify-content: space-between;
   }
   #image-row img {
-    margin: 10px;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 10px;
   }
 
   #image-row-mobile {
